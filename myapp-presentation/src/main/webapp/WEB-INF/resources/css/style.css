@@ -1,0 +1,50 @@
+ html, body {
+	background:url('../img/bg.jpg') center center no-repeat;
+	height: 100%;
+	background-size:cover;
+	
+}
+
+ #logo img {
+	padding-top:10px;
+	width:500px;
+}
+
+ #intro p {
+	color:white;
+	text-align:center;
+	font-family: 'Just Another Hand', cursive;
+	font-size: 1.8em;
+}
+
+#icons {
+	text-align:center;
+}
+
+#icons .fa{
+	color:white;
+	margin: 5px 15px;
+	position: relative;
+	bottom:0;
+	transition:all 0.2s ease-in-out;
+}
+
+#icons .twitter:hover{
+	color:#6cadde;
+	bottom:5px;
+}
+
+#icons .facebook:hover{
+	color:#3b5998;
+	bottom:5px;
+}
+
+#icons .googleplus:hover{
+	color:#ea4335;
+	bottom:5px;
+}
+
+#icons .instagram:hover{
+	color:#517fa6;
+	bottom:5px;
+}
